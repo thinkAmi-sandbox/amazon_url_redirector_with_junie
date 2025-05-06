@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Format Amazon URL",
+  "version": "1.0",
+  "description": "Redirects various Amazon.co.jp URL formats to the standardized format",
+  "permissions": ["webNavigation", "tabs"],
+  "host_permissions": ["*://www.amazon.co.jp/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
